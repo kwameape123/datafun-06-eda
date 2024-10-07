@@ -17,10 +17,15 @@ This project entails analyzing data to extract valuable and actionable insights.
     ```git commit -m "initial commit"```
     ```git push origin main```
 10. Identify and describe project dataset. Refer to the subsection named "Dataset" for additional details.
+11. Perform exploratory data analysis. Refer to jupyter notebook name arnoldatchoe_eda.ipynb for details.
+12. Sync contents of project repository on local machine with that of GitHub using the commands below in order.
+    ```git add .```
+    ```git commit -m "initial commit"```
+    ```git push origin main```
 
 ## Dataset
 
-This project makes use of the "taxis" data set included in the seaborn library. A copy of the csv_file containing this dataset
+This project makes use of the "taxis" dataset included in the seaborn library. A copy of the csv_file containing this dataset
 was obtained from https://github.com/mwaskom/seaborn-data/blob/master/taxis.csv. The csv_file has been copied to our project repository.
 Dataset contains information on yellow and green taxi trips in New York city for march of 2019. The dataset was collected by various technology providers under the Taxicab and Livery Passenger Enhancement Programs(TPEP/LPEP) and made available to NYC Taxi an Limousine Commission. The dataset include features such as pickup and drop-off date/time, pickup and drop-off location, trip distance,itemized fares, rate types, payment types and passenger count reported by drivers. This brief description of the project dataset was obtained from https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page. Refer to project jupyter notebook for exploratory data analysis and detailed understanding of project dataset.
 
